@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(images/bg-desktop.svg);
+    font-family: "Open Sans";
+}
+.heading{
+    margin: 3rem 0 4.5rem 3rem;
+}
+
+.mid-section{
+    display: flex;
+    flex-direction: row;
+    color:white;
+    margin: 0 4rem;
+}
+
+.photo{
+    margin-right: 3rem;
+}
+
+h1{
+    font-family: "Poppins";
+    margin: 2rem 3rem 1rem 0;
+}
+
+p{
+    margin: 2rem 1.5rem 1rem 0;
+    color: whitesmoke;
+}
+.heading{
+    margin-right: 2rem;
+}
+.btn{
+    margin: 2rem 1.5rem 1rem 0;
+}
+
+button{
+    border: solid 0px;
+    padding: 1rem 4rem;
+    border-radius: 2rem;
+    color: gray;
+    font-size: 1rem;
+}
+
+button:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+.footer{
+    position: absolute;
+    right: 2rem;
+    font-size: 1.6rem;
+    color: whitesmoke;
+    padding-bottom: 2rem;
+}
+
+i{
+    margin: 1rem 0.8rem 0;
+}
+
+@media screen and (max-width:510px){
+    body{
+        background-image: url(images/bg-mobile.svg);
+        text-align: center;
+        background-repeat: no-repeat;
+    }
+    
+    .mid-section{
+        display: flex;
+        flex-direction: column;
+        margin: 0 2rem;
+    }
+    img{
+        width: 100%;
+    }
+    .heading{
+        width: 30%;
+    }
+    .footer{
+        margin: 2rem 5rem ;
+        padding-bottom: 2rem;
+    }
+    h1{
+        margin: 1rem;
+    }
+    .photo{
+        margin-left: 1rem;
+    }
+}
